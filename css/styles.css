@@ -1,0 +1,172 @@
+body{
+    color:#0c0c0c;
+    font-family: 'Montserrat';
+    text-align: center;
+   
+}
+h1,h2,h3,h4{
+    font-family:"Montserrat";
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color:#fff;
+   
+}
+
+p{
+    color:#8f8f8f;
+    font-size: 15px;
+
+}
+/*Containers*/
+.container-fluid{
+    padding: 7% 15%;
+
+}
+
+/* Sections*/
+.colored-section{
+    background-color: #ff4c68;
+    color:#fff;
+
+}
+.white-section{
+    background-color: white;
+
+}
+
+/* Navigation bar*/
+
+.navbar{
+    padding: 0 0 4.5rem; 
+}
+.navbar-brand{
+  
+    color:#fff;
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+.nav-item{
+    
+    padding:0 18px;
+    
+}
+
+/*download buttons*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/*title section*/
+
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+.phone{
+    
+   transform:rotate(25deg);
+   
+   position: absolute;
+   right: 15%;
+}
+
+/*features section*/
+.feature-title{
+    font-size: 1.5rem;
+
+}
+#features{
+    
+   
+    position:relative;
+    
+}
+
+.feature-box{
+    
+    padding:5%;
+}
+
+.icon{
+    color:#fc4a4a;
+    padding-bottom:1rem ;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonials */
+#testimonials{
+    
+    padding:1% 3% ; 
+  
+    background-color: rgb(248, 196, 133);
+       
+}
+.testimonial-image{
+    width:15%;
+    border-radius: 100%;
+    margin:3%;
+}
+.testimonial-text{
+    font-size: 3.0rem;
+    line-height: 1.5;
+}
+
+/* Press*/
+#press{
+    background-color: rgb(248, 196, 133);
+    
+
+
+}
+.press-logo{
+    width:10%;
+    margin: 20px 10px;
+}
+
+
+#pricing{
+    padding: 100px;
+    
+}
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+    
+}
+/* section cta*/
+.section-heading{
+font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+
+.social-icon{
+    margin:20px 10px;
+}
+
+
+@media(max-width: 1066px){
+    #title{
+        text-align: center;
+    }
+    .phone{
+        position: static;
+        transform: rotate(0);
+    }    
+}
